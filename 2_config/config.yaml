@@ -1,0 +1,17 @@
+system:
+  name: {Insert your dominion here}
+  domain: {enter your domain}.to
+  version: v0.1-alpha
+  auto_update: true
+
+routing:
+  primary: {main_domain_server}.to
+  # Fallback is used to maintain secondary domain name servers for increased autonomy and decreased "risk-of-losing-independence"
+  fallback:
+    - {secondary_domain_server}.sh
+    - {third_domain_server}.cx
+    - {fourth_domain_server}.onion
+
+security:
+  key_check: true
+  signature_required: true
