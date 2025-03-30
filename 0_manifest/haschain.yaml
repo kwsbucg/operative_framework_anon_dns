@@ -1,0 +1,9 @@
+chain:
+  - domain: domain.to
+    pubkey: sha256:d13f71aa43b70ff8...
+    timestamp: 2025-03-30T18:00:00Z
+    next: domain.sh
+  - domain: domain.sh
+    pubkey: sha256:5d7bc9aa4b02c1c1...
+    timestamp: 2025-04-01T00:00:00Z
+    next: domain.cx
