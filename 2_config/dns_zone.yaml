@@ -4,16 +4,16 @@ zone:
   records:
     - type: NS
       name: "@"
-      value: ns1.thornshell.to
+      value: ns1.{your_domain_name}.to
     - type: NS
       name: "@"
-      value: ns2.thornshell.to
+      value: ns2.your_domain_name}.to
     - type: A
       name: "@"
-      value: 10.6.6.1
+      value: {enter.your.api.key}
     - type: A
       name: "api"
-      value: 10.6.6.2
+      value: {enter.your.api.key}
     - type: A
       name: "*.to"
-      value: 10.6.6.9
+      value: {enter.your.api.key}
