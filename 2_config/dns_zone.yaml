@@ -1,3 +1,4 @@
+#Prefilled config
 zone:
   domain: {your_domain_name}.to
   ttl: 60
