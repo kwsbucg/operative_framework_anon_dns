@@ -1,0 +1,19 @@
+zone:
+  domain: {your_domain_name}.to
+  ttl: 60
+  records:
+    - type: NS
+      name: "@"
+      value: ns1.thornshell.to
+    - type: NS
+      name: "@"
+      value: ns2.thornshell.to
+    - type: A
+      name: "@"
+      value: 10.6.6.1
+    - type: A
+      name: "api"
+      value: 10.6.6.2
+    - type: A
+      name: "*.to"
+      value: 10.6.6.9
