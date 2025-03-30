@@ -1,0 +1,10 @@
+ethics:
+  purpose: "Systemet skyddar tankefrihet, icke-aggressiv självorganisering och distribuerad autonomi."
+  principles:
+    - "Anonymitet är ett skydd, inte en rätt att skada."
+    - "Inga noder tvingas – deltagande bygger på samförstånd."
+    - "Kod är lag – inget systemiskt beslut är dolt för ögat."
+    - "Systemet övervakar inte, profilerar inte, kartlägger inte."
+  guardianship:
+    type: "Ekosystemarkitekt"
+    autonomy_level: "Flytande – systemet kan överleva utan upphov."
