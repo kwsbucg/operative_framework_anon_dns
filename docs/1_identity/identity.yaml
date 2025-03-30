@@ -1,0 +1,6 @@
+identity:
+  domain: domain.to
+  pubkey: sha256:d13f71aa43b70ff8...
+  created: 2025-03-30T18:00:00Z
+  system_name: DOMAIN
+  version: v0.1-alpha
