@@ -1,0 +1,16 @@
+     [NODE 1: Main-server]
+       - Huvudsignal
+       - DNS master #actually_main
+       - Manifest authority
+
+     [NODE 2: Relay-server]
+       - Mirror
+       - P2P sync
+       - DNS slave #actually_sub
+
+     [NODE 3: ThornShadow]
+       - Tor/I2P endpoint #needs_clarification/what_does_this_do?
+       - Offline-validering #-_-
+       - QR-distribution & export #irl_action?/what_does_export_equal?
+
+        ↘↖↙↗ ↔ VPN-mesh mellan alla #via_tailscale_and_alternative_parallel_mesh?
